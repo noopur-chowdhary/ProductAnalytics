@@ -1,0 +1,3 @@
+"use client";
+import {useEffect,useState} from "react"; import MetricCard from "../../components/MetricCard"; import Table from "../../components/Table"; import {fetchJson} from "../../lib/api";
+export default function Page(){ const [d,setD]=useState<any>(null); useEffect(()=>{fetchJson("/api/decisions").then(setD)},[]); return <><h1>Decision Center</h1><p className="lede">Business-facing actions with explicit causal and non-causal guardrails.</p><div className="grid">{d?.cards?.map((c:any,i:number)=><MetricCard key={i} title={c.capability} value={c.headline} detail={c.interpretation}/>)}</div><h2>Guardrails</h2><Table rows={d?.guardrails||[]}/></>; }

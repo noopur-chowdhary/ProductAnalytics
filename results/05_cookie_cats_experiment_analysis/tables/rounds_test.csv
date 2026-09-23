@@ -1,0 +1,2 @@
+gate_30_mean,gate_40_mean,gate_30_median,gate_40_median,mean_difference_gate40_minus_gate30,welch_t_stat,welch_t_p_value,mann_whitney_u,mann_whitney_p_value
+52.45626398210291,51.29877552814966,17.0,16.0,-1.157488453953249,0.8854374331270672,0.3759243840932615,1024331250.5,0.05020880772044255

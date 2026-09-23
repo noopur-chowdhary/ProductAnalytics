@@ -1,0 +1,2 @@
+task,selected_model,selection_metric,selected_threshold,class_balancing
+Online Retail 60-day repeat purchase,HistGradientBoosting,validation_pr_auc,0.29684899494640044,none

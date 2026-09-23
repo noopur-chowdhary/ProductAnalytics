@@ -1,0 +1,5 @@
+,dataset,type,approx_rows,primary_entity,use
+0,Retailrocket,Behavioral events,2756101,visitorid,"funnels, sessions, conversion, repeat behavior"
+1,Cookie Cats,Randomized experiment,90189,userid,"A/B testing, retention, engagement"
+2,Criteo Uplift,Treatment/control experiment,13979592,row/user,"treatment effects, uplift, targeting"
+3,Online Retail II,Transactions,1067371,customer/invoice,"revenue, cohorts, repeat purchase, customer analytics"

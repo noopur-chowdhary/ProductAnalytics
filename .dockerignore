@@ -1,0 +1,16 @@
+.git
+.DS_Store
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+
+data/
+Notebooks/
+notebooks/
+*.zip
+
+dashboard/node_modules/
+dashboard/.next/
+
+ProductPulse_production_ready.zip

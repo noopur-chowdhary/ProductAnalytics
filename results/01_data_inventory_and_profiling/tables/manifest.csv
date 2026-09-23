@@ -1,0 +1,4 @@
+,name,type,rows,columns
+0,files_df,DataFrame,8,3
+1,summary,DataFrame,4,5
+2,manifest,DataFrame,3,4

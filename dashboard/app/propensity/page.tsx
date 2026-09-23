@@ -1,0 +1,3 @@
+"use client";
+import {useEffect,useState} from "react"; import Table from "../../components/Table"; import {fetchJson} from "../../lib/api";
+export default function Page(){ const [rr,setRr]=useState<any>(null); const [or,setOr]=useState<any>(null); useEffect(()=>{fetchJson("/api/propensity/retailrocket").then(setRr); fetchJson("/api/propensity/online-retail").then(setOr)},[]); return <><h1>Propensity Modeling</h1><p className="lede">Who is likely to transact soon, and who is likely to purchase again?</p><h2>Retailrocket</h2><Table rows={rr?.policy||[]}/><h2>Online Retail II</h2><Table rows={or?.policy||[]}/></>; }

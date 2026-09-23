@@ -1,0 +1,5 @@
+capability,headline,evidence,interpretation
+Experiment decision,Keep gate_30,Gate 40 vs gate 30 day-7 retention difference = -0.820 pp; p=0.0016,Randomized experiment supports a product-level decision.
+Short-term visitor prioritization,Top 1% has 47.10x purchase lift,Captures 47.1% of observed future purchasers at that targeting depth.,Use as propensity ranking; it does not prove outreach causes purchases.
+Repeat-purchase prioritization,Top 10% repeat-purchase rate = 91.1%,Lift vs customer population = 1.82x.,Prioritizes likely repeat customers; it is not an uplift estimate.
+Causal treatment targeting,Top 10% observed treatment uplift = 0.835 pp,"Equivalent to about 83.5 incremental conversions per 10,000 targeted users in the test experiment.",Use uplift ranking when deciding who should receive an intervention.

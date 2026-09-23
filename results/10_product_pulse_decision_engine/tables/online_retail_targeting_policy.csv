@@ -1,0 +1,4 @@
+target_pct,target_fraction,audience_rows,observed_positive_rate,observed_positive_rate_pct,captured_positive_share,captured_positive_share_pct,lift_vs_population,estimated_positive_rows_in_audience,entity
+1,0.01,57,1.0,100.0,0.0202630643441166,2.02630643441166,1.9928901528617131,57.0,customer prediction rows
+5,0.05,281,0.9644128113879004,96.44128113879003,0.0963384287237824,9.63384287237824,1.9219687951086275,271.0,customer prediction rows
+10,0.1,561,0.910873440285205,91.0873440285205,0.1816565943832207,18.16565943832207,1.815270709647657,511.0,customer prediction rows

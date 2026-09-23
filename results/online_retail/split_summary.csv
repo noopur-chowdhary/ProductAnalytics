@@ -1,0 +1,4 @@
+split,rows,customers
+train,30629,4496
+validation,5688,3252
+test,5606,3041

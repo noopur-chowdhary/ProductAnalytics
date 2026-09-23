@@ -1,0 +1,10 @@
+,dataset,file,size_mb
+0,cookie_cats,cookie_cats.csv,2.58
+1,criteo,criteo-uplift-v2.1.csv.gz,297.0
+2,online_retail,online_retail_II.xlsx,43.51
+3,online_retail,online_retail_ii.zip,43.51
+4,retailrocket,category_tree.csv,0.01
+5,retailrocket,ecommerce-dataset.zip,290.6
+6,retailrocket,events.csv,89.87
+7,retailrocket,item_properties_part1.csv,461.88
+8,retailrocket,item_properties_part2.csv,389.99

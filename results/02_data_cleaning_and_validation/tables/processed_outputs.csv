@@ -1,0 +1,7 @@
+dataset,output,description
+Cookie Cats,data/processed/02_cleaned/cookie_cats_clean.parquet,Clean A/B experiment table.
+Online Retail II,data/processed/02_cleaned/online_retail_sales_clean.parquet,Clean completed sales transactions with Revenue.
+Retailrocket Events,data/processed/02_cleaned/retailrocket_events_clean.parquet,Clean behavioral event stream.
+Retailrocket Category Tree,data/processed/02_cleaned/retailrocket_category_tree_clean.parquet,Clean category hierarchy.
+Retailrocket Item Properties,data/processed/02_cleaned/retailrocket_item_properties,Chunked clean property history (41 parquet parts).
+Criteo Uplift,data/processed/02_cleaned/criteo_uplift,Chunked clean uplift dataset (28 parquet parts).

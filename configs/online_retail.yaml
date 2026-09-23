@@ -1,0 +1,23 @@
+dataset: online_retail
+processed_sales: data/processed/02_cleaned/online_retail_sales_clean.parquet
+modeling_output: data/processed/07_modeling/online_retail
+lookback_days: 180
+recent_days: 30
+horizon_days: 60
+step_days: 30
+train_fraction: 0.70
+validation_fraction: 0.15
+features:
+  - orders_180d
+  - revenue_180d
+  - units_180d
+  - unique_products_180d
+  - avg_order_value_180d
+  - recency_days
+  - active_span_days_180d
+  - orders_30d
+  - revenue_30d
+  - units_30d
+  - unique_products_30d
+target: target_future_purchase
+class_balancing: false

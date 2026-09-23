@@ -1,0 +1,7 @@
+dataset,split,target_rate_pct
+Retailrocket,train,0.048185892432048766
+Retailrocket,validation,0.03992818079480264
+Retailrocket,test,0.04326534195295991
+Online Retail,train,39.09366939828267
+Online Retail,validation,41.27988748241913
+Online Retail,test,50.17838030681413

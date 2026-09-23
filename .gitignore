@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+*.egg-info/
+build/
+dist/
+
+# Large datasets
+data/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Next.js
+dashboard/node_modules/
+dashboard/.next/
+
+# Archives
+*.zip
+
+# Secrets
+.env*
+!.env.example
+
+# Notebook-generated outputs
+Notebooks/results/

@@ -1,0 +1,24 @@
+dataset: retailrocket
+processed_events: data/processed/02_cleaned/retailrocket_events_clean.parquet
+modeling_output: data/processed/07_modeling/retailrocket
+lookback_days: 21
+recent_days: 7
+horizon_days: 7
+step_days: 7
+train_fraction: 0.60
+validation_fraction: 0.20
+features:
+  - events_21d
+  - unique_items_21d
+  - views_21d
+  - carts_21d
+  - transactions_21d
+  - views_7d
+  - carts_7d
+  - transactions_7d
+  - recency_hours
+  - active_span_days_21d
+  - cart_per_view_21d
+  - transaction_per_view_21d
+target: target_future_transaction
+class_balancing: true

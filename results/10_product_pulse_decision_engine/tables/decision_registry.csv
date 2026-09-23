@@ -1,0 +1,5 @@
+module,dataset,decision_unit,question,method,primary_output,causal
+Experimentation,Cookie Cats,Product variant,Should gate_40 replace gate_30?,Randomized A/B test,Keep gate_30,True
+Short-term conversion propensity,Retailrocket,Visitor at prediction time,Who is most likely to transact within 7 days?,HistGradientBoosting,transaction_propensity_score,False
+Repeat-purchase propensity,Online Retail II,Customer at prediction time,Who is most likely to purchase again within 60 days?,HistGradientBoosting,repeat_purchase_probability,False
+Treatment uplift,Criteo Uplift,User,Whose conversion probability is most improved by treatment?,LogisticRegression_TLearner,uplift_score,True

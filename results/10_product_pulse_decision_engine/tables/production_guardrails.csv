@@ -1,0 +1,6 @@
+guardrail,reason
+Separate populations,"Retailrocket, Online Retail, Cookie Cats, and Criteo are different datasets and cannot be joined as the same users."
+Propensity is not causality,High likelihood to purchase does not prove an intervention caused the purchase.
+Untouched test evaluation,Policy and model selection must come from train/validation data.
+Budget-aware targeting,Audience size should depend on intervention cost and capacity.
+Monitor drift,Performance can change as customer behavior and treatment response change.

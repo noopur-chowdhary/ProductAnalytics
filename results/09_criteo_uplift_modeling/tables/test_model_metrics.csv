@@ -1,0 +1,3 @@
+model,split,qini_coefficient
+LogisticRegression_TLearner,test,794.6145877971384
+HistGradientBoosting_TLearner,test,590.934471641923

@@ -1,0 +1,7 @@
+dataset,raw_rows,clean_rows,rows_removed,pct_removed,pct_retained,notes
+Cookie Cats,90189,90189,0,0.0,100.0,"Removed exact duplicates, invalid experiment rows, and repeated userid records."
+Online Retail II,1067371,1029609,37762,3.5379,96.4621,Positive completed sales only; cancellations/returns and invalid sales rows excluded.
+Retailrocket Events,2756101,2755641,460,0.0167,99.9833,Removed duplicate/invalid behavioral events and added event_time.
+Retailrocket Category Tree,1669,1669,0,0.0,100.0,Removed duplicates and rows without categoryid.
+Retailrocket Item Properties,20275902,20275902,0,0.0,100.0,Chunk-cleaned into Parquet parts; global cross-chunk deduplication is deferred.
+Criteo Uplift,13979592,13851981,127611,0.9128,99.0872,Chunk-cleaned; invalid treatment/outcome rows removed; feature NaNs retained.

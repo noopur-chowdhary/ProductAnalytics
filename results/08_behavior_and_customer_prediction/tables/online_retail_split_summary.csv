@@ -1,0 +1,4 @@
+split,rows,unique_customers,positive_rate_pct
+train,30629,4496,39.09366939828267
+validation,5688,3252,41.27988748241913
+test,5606,3041,50.17838030681413

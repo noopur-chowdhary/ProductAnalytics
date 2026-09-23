@@ -1,0 +1,2 @@
+task,selected_model,selection_metric,selected_threshold,class_balancing
+Retailrocket 7-day transaction,HistGradientBoosting,validation_pr_auc,0.980445119146975,balanced weights

@@ -1,0 +1,7 @@
+dataset,split,start,end_exclusive,duration_days
+Retailrocket,train,2015-05-03 00:00:00+00:00,2015-07-25 09:36:00+00:00,83.4
+Retailrocket,validation,2015-07-25 09:36:00+00:00,2015-08-22 04:48:00+00:00,27.8
+Retailrocket,test,2015-08-22 04:48:00+00:00,2015-09-19 00:00:00+00:00,27.8
+Online Retail II,train,2009-12-01 00:00:00,2011-05-02 07:12:00,517.3
+Online Retail II,validation,2011-05-02 07:12:00,2011-08-21 03:36:00,110.85
+Online Retail II,test,2011-08-21 03:36:00,2011-12-10 00:00:00,110.85

@@ -1,0 +1,8 @@
+dataset,path,exists,size_mb
+cookie_cats,data/raw/cookie_cats/cookie_cats.csv,True,2.58
+criteo,data/raw/criteo/criteo-uplift-v2.1.csv.gz,True,297.0
+online_retail,data/raw/online_retail/online_retail_II.xlsx,True,43.51
+retailrocket_category_tree,data/raw/retailrocket/category_tree.csv,True,0.01
+retailrocket_events,data/raw/retailrocket/events.csv,True,89.87
+retailrocket_properties_1,data/raw/retailrocket/item_properties_part1.csv,True,461.88
+retailrocket_properties_2,data/raw/retailrocket/item_properties_part2.csv,True,389.99

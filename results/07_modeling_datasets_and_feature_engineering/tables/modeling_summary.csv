@@ -1,0 +1,4 @@
+dataset,task,rows,target,split_strategy,path
+Retailrocket,Visitor future transaction,3452384.0,target_future_transaction,3 chronological 14-day snapshots,data/processed/07_modeling/retailrocket_conversion_features.parquet
+Online Retail II,Customer future purchase,15616.0,target_future_purchase,3 chronological 60-day snapshots,data/processed/07_modeling/online_retail_customer_features.parquet
+Criteo Uplift,Individual treatment effect,,conversion,randomized experiment; split in Notebook 09,data/processed/02_cleaned/criteo_uplift

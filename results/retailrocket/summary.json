@@ -1,0 +1,5 @@
+{
+  "result_source": "verified_existing_results",
+  "selected_model": "HistGradientBoosting",
+  "model_metric_rows": 4
+}

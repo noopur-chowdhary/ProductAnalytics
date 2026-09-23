@@ -1,0 +1,7 @@
+metric,value
+median_events_per_visitor,1.0
+mean_events_per_visitor,1.958
+median_unique_items_per_visitor,1.0
+visitors_with_2plus_events_pct,28.843
+visitors_with_cart_pct,2.68
+visitors_with_transaction_pct,0.833

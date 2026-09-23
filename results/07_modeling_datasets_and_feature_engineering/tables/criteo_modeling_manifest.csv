@@ -1,0 +1,2 @@
+source_directory,parquet_parts,feature_columns,treatment_column,primary_outcome,secondary_outcome,exposure_column
+/Users/noopur/Desktop/resume_projects/ProductPulse/data/processed/02_cleaned/criteo_uplift,28,"f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11",treatment,conversion,visit,exposure

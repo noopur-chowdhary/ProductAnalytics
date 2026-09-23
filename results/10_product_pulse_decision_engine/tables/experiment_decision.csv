@@ -1,0 +1,2 @@
+module,dataset,business_question,decision,primary_metric,gate_30_retention_pct,gate_40_retention_pct,difference_gate40_minus_gate30_pp,p_value,day1_difference_pp,game_round_mean_difference,game_round_welch_p_value,reason
+Product experimentation,Cookie Cats,Should the game use gate_30 or gate_40?,Keep gate_30,day-7 retention,19.02013422818791,18.200004396667318,-0.82012983152059,0.0016005742679058,-0.59051697873414,-1.157488453953249,0.3759243840932615,Gate 40 significantly reduces day-7 retention.

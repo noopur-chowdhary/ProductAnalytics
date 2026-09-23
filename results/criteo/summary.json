@@ -1,0 +1,9 @@
+{
+  "rows": 40000,
+  "train_rows": 30000,
+  "test_rows": 10000,
+  "mean_treatment_score": 0.0057153188639803105,
+  "mean_control_score": 0.0034421717197941895,
+  "mean_predicted_uplift": 0.0022731471441861206,
+  "qini_coefficient": 1.0989983177458456
+}
